@@ -2,9 +2,9 @@
 
 import requests as req
 
-resp = req.get("http://www.something.com")
+resp = req.get("http://www.asesorit.com")
 print(resp.status_code)
 
-resp = req.get("http://www.something.com/news/")
+resp = req.get("http://asesorit.com/servicios.html")
 print(resp.status_code)
 
